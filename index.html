@@ -9,7 +9,152 @@
 </head>
 
 <body>
-    
-</body>
 
+    <!-- Navigasi -->
+    <nav id="nav-bar">
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+        <section class="nav-section">
+            <a href="#Home" class="nav-item">Home</a>
+            <a href="#Our-Profile" class="nav-item">Our Profile</a>
+            <a href="#achievement-slide" class="nav-item">Achivement</a>
+            <a href="#massage-slide" class="nav-item">Message Us</a>
+        </section>
+    </nav>
+
+    <hr />
+     <!-- Article -->
+        <article id="Home" class="MainArticle">
+            <header>
+                <h1 class="FontArticle">Hi <span id="name">User</span> ,Welcome To Website
+                </h1>
+            </header>
+            <p class="FontArticle">Ini Adalah Website Latihan Perama</p>
+            <div class="banner-img">
+                <div class="MainArticle-Banner-Content gambar-1"></div>
+                <div class="MainArticle-Banner-Content gambar-2"></div>
+                <div class="MainArticle-Banner-Content gambar-3"></div>
+            </div>
+        </article>
+
+        <hr />
+    <!-- Our Profile -->
+        <section id="Our-Profile">
+            <header>
+                <h1>Our Profile</h1>
+            </header>
+
+            <section class="profile-container">
+                <div class="Profile-item">
+                    <div class="profile-img"></div>
+                    <h2>Professional Teacher</h2>
+                </div>
+
+                <div class="Profile-item">
+                    <div class="profile-img"></div>
+                    <h2>Sport Field</h2>
+                </div>
+
+                <div class="Profile-item">
+                    <div class="profile-img"></div>
+                    <h2>Classsroom</h2>
+                </div>
+
+            </section>
+
+        </section>
+
+        <hr />
+     <!-- Achievement -->
+        <section id="achievement-slide">
+            <header>
+            <h1>Achievement</h1>
+        </header>
+
+            <section class="Achievement-container">
+                <div class="Achievement-item">
+                    <div class="html-img"></div>
+                    <h3>Hypertext Markup Language (HTML)</h3>
+                </div>
+
+                <div class="Achievement-item">
+                    <div class="css-img"></div>
+                    <h3>Cascading Style Sheets (CSS)</h3>
+                </div>
+
+                <div class="Achievement-item">
+                    <div class="js-img"></div>
+                    <h3>JavaScript  (JS)</h3>
+                </div>
+             </section>
+        </section>
+
+       <hr /> 
+    
+     <!-- Massage US -->
+      <section  id="massage-slide" class="MassageUS_Container">
+        <form class="form_MassageUS">
+            <h1>Message US</h1>
+
+        <div class="Form_row">
+            <div class="row_label">
+                <label class="Label_standard" for="input_name">Nama</label>
+            </div>
+            <div class="row_input">
+                <a>:</a>
+                <input class="input_standar" type="text" name="input_name" id="input-name" placeholder="name"/>
+            </div>
+        </div>
+
+        <div class="Form_row">
+            <div class="row_label">
+                <label class="Label_standard" for="input-Date">Tanggal Lahir</label>
+            </div>
+            <div class="row_input">
+                <a>:</a>
+                <input class="input_standar" type="date" name="input_Date" id="input-Date" placeholder="date"/>
+            </div>
+        </div>
+
+        <div class="Form_row">
+            <div class="row_label">
+                <Label class="Label_standard" for="input-gender">Jenis Kelamin</Label>
+            </div>
+            <div class="row_input">
+                <a>:</a>
+                <input type="radio" name="input_gender" value="Laki-Laki" unchecked/> Laki-Laki
+                <input type="radio" name="input_gender" value="Perempuan" unchecked/> Perempuan 
+            </div>
+        </div>
+
+        <div class="Form_row">
+            <div class="row_label">
+                <label class="Label_standard" for="input-Pesan">Pesan</label>
+            </div>
+            <div class="row_input">
+                <textarea class="input_standar" name="input-Pesan" id="input-Pesan" rows="4" cols="23" placeholder="pesan"></textarea>
+            </div>
+        </div>
+        <button type="button" class="Button_style">Submit</button>
+    </form>
+    <div class="comment_container center_display">
+        <h1>Message :</h1>
+        <div class="comment_info">
+            <small class="names"></small>
+            <samall class="date"></samall>
+            <small class="gender"></small>
+            <small class="clock"></small>
+            <p class="comment"></p>
+        </div>
+     </div>
+     </section>
+
+     <hr />
+     <!-- Footer -->
+     <footer>
+        <p>Made by Dede Rendi Riyadi</p>
+     </footer>
+     <script src="js\script.js"></script>
+</body>
 </html>
